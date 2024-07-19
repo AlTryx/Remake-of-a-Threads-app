@@ -1,0 +1,112 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "user_uuid": "440db04c-3684-46ab-99b4-5e42ac0e403a",
+      "username": "Alex Stanchev",
+      "handle": "alexstanchev",
+      "bio" : "I'm a beginner programmer and web & software developer and I'm trying my best to be capable of programming :D",
+      "link": "https://linktr.ee/aleksandarstanchev",
+      "img": "https://i.pinimg.com/originals/99/8f/b4/998fb47b74f343d9da1929d4f232078b.jpg",
+      "instagram_url": "https://www.instagram.com/ale_xstanchev/",
+      "followers" : [
+        {
+          "user_uuid": "991c2701-2cb3-41da-a216-ec7f36c25847"
+        },
+        {
+          "user_uuid": "fe9beba9-1d89-4770-8264-17c2f843d12c"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "user_uuid": "991c2701-2cb3-41da-a216-ec7f36c25847",
+      "username": "Bobby's Burgers",
+      "handle": "bobbyburgers",
+      "bio" : "I like burgers, so do you (say yes)",
+      "link": "https://www.bobbyburgers.com",
+      "img": "https://www.foodandwine.com/thmb/pwFie7NRkq4SXMDJU6QKnUKlaoI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Ultimate-Veggie-Burgers-FT-Recipe-0821-5d7532c53a924a7298d2175cf1d4219f.jpg",
+      "instagram_url": "https://www.instagram.com/bobbyburger/",
+      "followers" : [
+        {
+          "user_uuid": "440db04c-3684-46ab-99b4-5e42ac0e403a"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "user_uuid": "fe9beba9-1d89-4770-8264-17c2f843d12c",
+      "username": "Ani Talli",
+      "handle": "truthsayer",
+      "bio" : "Just a person trying to do their best",
+      "link": "https://www.bobbyburgers.com",
+      "img": "https://img.bebeautiful.in/www-bebeautiful-in/8-things-every-woman-ought-to-learn-in-her-20s-600x350-picmobhome.jpg",
+      "instagram_url": "https://www.instagram.com/anitalli/",
+      "followers" : [
+        {
+          "user_uuid": "440db04c-3684-46ab-99b4-5e42ac0e403a"
+        }
+      ]
+    }
+
+  ],
+  "threads": [
+    {
+      "id": 0,
+      "timestamp": "Sat Jul 13 2024 15:38:48 GMT+0300 (Eastern European Summer Time)",
+      "thread_from": "440db04c-3684-46ab-99b4-5e42ac0e403a",
+      "thread_to": null,
+      "reply_to": null,
+      "text": "Hello world of threads",
+      "likes": [
+        {
+          "user_uuid": "fe9beba9-1d89-4770-8264-17c2f843d12c"
+        },
+        {
+          "user_uuid": "991c2701-2cb3-41da-a216-ec7f36c25847"
+        }
+      ]
+
+    },
+    {
+      "id": 1,
+      "timestamp": "Sat Jul 13 2024 16:52:48 GMT+0300 (Eastern European Summer Time)",
+      "thread_from": "440db04c-3684-46ab-99b4-5e42ac0e403a",
+      "thread_to": null,
+      "reply_to": null,
+      "text": "Another thread",
+      "likes": []
+
+    },
+    {
+      "id": 2,
+      "timestamp": "Sat Jul 13 2024 16:55:48 GMT+0300 (Eastern European Summer Time)",
+      "thread_from": "440db04c-3684-46ab-99b4-5e42ac0e403a",
+      "thread_to": null,
+      "reply_to": null,
+      "text": "Another one",
+      "likes": []
+
+    },
+    {
+      "id": 3,
+      "timestamp": "Sat Jul 13 2024 16:55:48 GMT+0300 (Eastern European Summer Time)",
+      "thread_from": "991c2701-2cb3-41da-a216-ec7f36c25847",
+      "thread_to": null,
+      "reply_to": null,
+      "text": "I like my burgers",
+      "likes": []
+
+    },
+    {
+      "id": 4,
+      "timestamp": "Sat Jul 13 2024 17:32:38 GMT+0300 (Eastern European Summer Time)",
+      "thread_from": "440db04c-3684-46ab-99b4-5e42ac0e403a",
+      "thread_to": "991c2701-2cb3-41da-a216-ec7f36c25847",
+      "reply_to": 3,
+      "text": "Wholesome",
+      "likes": []
+
+    }
+  ]
+}
